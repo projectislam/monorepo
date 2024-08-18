@@ -11,7 +11,11 @@
         "storybook-static/**"
       ]
     },
-    "build:storybook": {},
+    "dev:storybook": {},
+    "build:storybook": {
+      "dependsOn": ["^build:storybook"],
+      "outputs": ["storybook-static/**"]
+    },
     "lint": {},
     "type-check": {},
     "dev": {

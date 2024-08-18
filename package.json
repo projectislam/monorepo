@@ -4,6 +4,8 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "build:storybook": "turbo build:storybook",
+    "dev:storybook": "turbo dev:storybook",
     "lint": "turbo lint",
     "type-check": "turbo type-check",
     "clean": "turbo clean",
