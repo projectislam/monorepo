@@ -1,6 +1,6 @@
 {
   "name": "project-islam",
-  "private": false,
+  "private": true,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
