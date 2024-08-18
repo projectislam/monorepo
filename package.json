@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "name": "project-islam",
+  "private": false,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -16,7 +17,6 @@
   "engines": {
     "node": ">=18"
   },
-  "name": "with-tailwind",
   "packageManager": "yarn@1.22.22",
   "workspaces": [
     "apps/*",
