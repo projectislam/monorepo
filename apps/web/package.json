@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "dev:storybook": "storybook dev -p 6006",
+    "dev:storybook": "storybook dev -p 6008",
     "build:storybook": "storybook build"
   },
   "dependencies": {
