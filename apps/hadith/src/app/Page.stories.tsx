@@ -1,4 +1,4 @@
-import "@repo/ui/styles.css";
+import "@projectislam/ui/styles.css";
 import "./globals.css";
 
 import type { Meta, StoryObj } from "@storybook/react";

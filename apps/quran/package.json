@@ -1,18 +1,18 @@
 {
-  "name": "web",
+  "name": "quran",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port=3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "dev:storybook": "storybook dev -p 6008",
+    "dev:storybook": "storybook dev -p 6007",
     "build:storybook": "storybook build"
   },
   "dependencies": {
-    "@repo/ui": "*",
+    "@projectislam/ui": "*",
     "next": "^14.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -20,9 +20,9 @@
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
     "@next/eslint-plugin-next": "^14.2.3",
-    "@repo/eslint-config": "*",
-    "@repo/tailwind-config": "*",
-    "@repo/typescript-config": "*",
+    "@projectislam/eslint-config": "*",
+    "@projectislam/tailwind-config": "*",
+    "@projectislam/typescript-config": "*",
     "@storybook/addon-essentials": "^8.2.9",
     "@storybook/addon-interactions": "^8.2.9",
     "@storybook/addon-links": "^8.2.9",

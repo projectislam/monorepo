@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    "@projectislam/eslint-config/react.js",
-    "plugin:storybook/recommended",
+    "@projectislam/eslint-config/next.js",
     "plugin:storybook/recommended",
     "plugin:storybook/recommended",
   ],
