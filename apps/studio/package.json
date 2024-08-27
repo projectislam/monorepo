@@ -4,6 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx directus start",
+    "db:snapshot": "npx directus schema snapshot ./snapshots/\"$(date \"+%F\")\"-snapshot-\"$(date \"+%s\")\".yaml",
+    "db:backup": "yarn db:snapshot && node dbScripts.js backup",
+    "db:restore": "node dbScripts.js restore",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +15,8 @@
   "description": "",
   "dependencies": {
     "directus": "^11.0.2",
-    "pg": "^8.12.0"
+    "dotenv": "16.4.5",
+    "pg": "^8.12.0",
+    "sharp": "^0.33.5"
   }
 }

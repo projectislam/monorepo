@@ -16,6 +16,8 @@
       "dependsOn": ["^build:storybook"],
       "outputs": ["storybook-static/**"]
     },
+    "db:backup": {},
+    "db:restore": {},
     "lint": {},
     "type-check": {},
     "dev": {
