@@ -1,5 +1,21 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "cSpell.words": ["directus", "projectislam", "tailwindcss"]
+  "cSpell.words": [
+    "ayas",
+    "datetime",
+    "directus",
+    "hizb",
+    "Hizbs",
+    "juzs",
+    "Manzil",
+    "manzils",
+    "meccan",
+    "medinan",
+    "projectislam",
+    "Ruku",
+    "rukus",
+    "sajda",
+    "tailwindcss"
+  ]
 }

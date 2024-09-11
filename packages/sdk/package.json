@@ -1,0 +1,15 @@
+{
+  "name": "@projectislam/sdk",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "dev": "echo 'No dev required'",
+    "build": "echo 'No build required'",
+    "test": "echo 'No test required'",
+    "lint": "echo 'No lint required'"
+  },
+  "dependencies": {
+    "@directus/sdk": "^17.0.1"
+  }
+}
