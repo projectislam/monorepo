@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "hafs";
+  src: url("./fonts/hafs/hafs.eot");
+  src:
+    url("./fonts/hafs/hafs.woff2") format("woff2"),
+    url("./fonts/hafs/hafs.woff") format("woff"),
+    url("./fonts/hafs/hafs.otf") format("opentype");
+}
